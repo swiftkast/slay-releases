@@ -10,14 +10,12 @@ Supports both Apple Silicon and Intel Macs.
 
 ## First-Launch Instructions (macOS)
 
-Because Slay is not signed with an Apple Developer ID certificate, macOS Gatekeeper blocks opening on first launch:
+Slay is signed with an Apple Developer ID and notarized by Apple, so it opens like any other Mac app:
 
 1. Download and open the DMG, then drag **Slay** into your **Applications** folder.
-2. Open Slay from Applications. When macOS warns that the developer cannot be verified, click **Done** (or **Cancel**).
-3. Open **System Settings** → **Privacy & Security**, scroll down to the Security section, and click **Open Anyway**.
-4. Confirm by clicking **Open** when prompted.
+2. Open Slay from Applications. When macOS asks whether you're sure you want to open an app downloaded from the internet, click **Open**.
 
-This step is only required on initial setup. In-app updates do not trigger this prompt.
+That's the only check. Updates install from inside the app.
 
 ## Source Code
 
